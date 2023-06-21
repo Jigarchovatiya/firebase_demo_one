@@ -15,14 +15,14 @@ class _LogInScreenState extends State<LogInScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.white10,
-        title: Text("Log In Screen"),
+        title: const Text("Log In Screen"),
       ),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(20),
           child: Column(
             children: [
-              Padding(
+              const Padding(
                 padding: EdgeInsets.all(15),
                 child: TextField(
                   decoration: InputDecoration(
@@ -33,11 +33,11 @@ class _LogInScreenState extends State<LogInScreen> {
                 ),
               ),
               Padding(
-                padding: EdgeInsets.all(15),
+                padding: const EdgeInsets.all(15),
                 child: TextField(
                   controller: password,
                   obscureText: true,
-                  decoration: InputDecoration(
+                  decoration: const InputDecoration(
                     border: OutlineInputBorder(),
                     labelText: 'Password',
                     hintText: 'Enter Password',
@@ -45,7 +45,7 @@ class _LogInScreenState extends State<LogInScreen> {
                 ),
               ),
               ElevatedButton(
-                child: Text('Sign In'),
+                child: const Text('Sign In'),
                 onPressed: () {},
               )
             ],

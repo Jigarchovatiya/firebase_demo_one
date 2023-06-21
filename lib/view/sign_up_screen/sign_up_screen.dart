@@ -58,12 +58,12 @@ class _SignUpScreenState extends State<SignUpScreen> {
             ),
           ),
           ElevatedButton(
-            child: Text('Sign in to Git hub'),
+            child: const Text('Sign in to Git hub'),
             onPressed: () {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => GitHubLogIn(),
+                  builder: (context) => const GitHubLogIn(),
                 ),
               );
             },
