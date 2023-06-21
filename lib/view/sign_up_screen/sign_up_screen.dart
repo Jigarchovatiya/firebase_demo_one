@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_demo_one/view/sign_up_screen/git_hug_log_in.dart';
 import 'package:flutter/material.dart';
+
+import 'git_hub_log_in.dart';
 
 class SignUpScreen extends StatefulWidget {
   const SignUpScreen({Key? key}) : super(key: key);

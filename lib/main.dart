@@ -1,5 +1,5 @@
 import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_demo_one/view/sign_up_screen/git_hug_log_in.dart';
+import 'package:firebase_demo_one/view/sign_up_screen/git_hub_log_in.dart';
 import 'package:flutter/material.dart';
 
 Future<void> main() async {
