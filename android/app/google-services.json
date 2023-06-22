@@ -1,26 +1,73 @@
 {
   "project_info": {
-    "project_number": "541519211085",
-    "project_id": "fir-app-cc404",
-    "storage_bucket": "fir-app-cc404.appspot.com"
+    "project_number": "22331172789",
+    "project_id": "blood-donation-app-eae5e",
+    "storage_bucket": "blood-donation-app-eae5e.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:541519211085:android:480d6f9c448e2f6547ca04",
+        "mobilesdk_app_id": "1:22331172789:android:6ebaba0003ad936c361bfc",
         "android_client_info": {
-          "package_name": "com.app.firebase_demo_one"
+          "package_name": "com.app.blood_donation_app"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "22331172789-44vepmsqa0ksvn9besilmtm4iqbun74e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.blood_donation_app",
+            "certificate_hash": "a2fc563a6c22d8964619ded58814d237c062aff5"
+          }
+        },
+        {
+          "client_id": "22331172789-qdqmhdd2tlm2g0nc93f8gs6ru7c8sijr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyA7SziMcTzGXMMhwJD_K7J9v2xMCzLRtCk"
+          "current_key": "AIzaSyBwyvJr14u5YUYUfnkmchKbFtO8HV6Em4g"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22331172789-gr5gk4qq759gpbmueejr4uvbv745ceve.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22331172789:android:8935edac454901c4361bfc",
+        "android_client_info": {
+          "package_name": "com.app.firebase_demo_one"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22331172789-qdqmhdd2tlm2g0nc93f8gs6ru7c8sijr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwyvJr14u5YUYUfnkmchKbFtO8HV6Em4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22331172789-gr5gk4qq759gpbmueejr4uvbv745ceve.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
